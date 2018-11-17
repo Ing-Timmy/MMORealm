@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>MMORealm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Provides forum posts and option to post discussion.">
+	<meta name="author" content="Timmy Ing">
+	<style>
+ table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 3px solid #551A8B;
+    padding: 10px;
+    text-align: left;
+  }
+</style>
+</head>
+
+<body>
+	
+	<div id="container">
+	
+	<header>
+	<a href="index.html"><img src= "MMORealmlogo.png" alt="MMORealm LOGO"></a>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gameList.html">Game List</a></li>
+			<li><a href="forums.html">Forums</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+	
+	<form><!-- Start Form -->
+		<h2> Login: </h2>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username">
+		<label for="pw">Password:</label>
+		<input type="password" name="pw" id="pw">
+			<input type="submit" id="submit" value="Submit" class="btn">
+	
+		<h2>Create your discussion post below</h2>
+		<label for="subject">Subject:</label>
+		<textarea id="subject" name="subject" rows="2" cols="50" maxlength="75"></textarea>
+		<label for="body">Body:</label>
+		<textarea id="body" name="body" rows="20" cols="50" maxlength="2000"></textarea>
+		<label for="postcat">Post Category:</label>
+		<select name="postcat" id="postcat">
+			<option value="discussion">Discussion</option>
+			<option value="help">Suggestion/Tip</option>
+			<option value="funny">Humor</option>
+			<option value="talk">Rant</option>
+			<option value="video">Video</option>
+			<option value="art">Art</option>
+			<option value="other">Other</option>
+		</select>
+		<label for="gamecat">Game Category:</label>
+		<select name="gamecat" id="gamecat">
+			<option value="general">General</option>
+			<option value="WoW">World of Warcraft</option>
+			<option value="FFXIV">Final Fantasy XIV</option>
+			<option value="TESO">The Elder Scrolls Online</option>
+			<option value="osrs">RuneScape</option>
+			<option value="gw2">Guild Wars 2</option>
+		</select>
+		
+		<input type="submit" id="submit2" value="Submit" class="btn">
+	</form>
+	
+	<h2> Public Discussions </h2>
+	<table>
+		<tr>
+			<th> Author </th>
+			<th> Subject </th>
+			<th> Post Category </th>
+			<th> Game Category </th>
+			<th> Last Post </th>
+		</tr>
+		<tr>
+			<td> ToastyTo </td>
+			<td> Welcome to MMORealm </td>
+			<td> Discussion </td>
+			<td> General </td>
+			<td> 11-16-17 </td>
+		</tr>
+	</table>
+		
+		
+		
+	</main>
+	<footer>
+		&copy; Copyright 2018. All Rights Reserved. <br>
+		<a href="mailto:ing.timmy@gmail.com">ing.timmy@gmail.com</a>
+	</footer>
+	
+	</div>
+	
+</body>
+</html>

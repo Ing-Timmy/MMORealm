@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>MMORealm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Signup page for website allowing for users to create accounts.">
+	<meta name="author" content="Timmy Ing">
+</head>
+<body>
+	
+	<div id="container">
+	
+	<header>
+	<a href="index.html"><img src= "MMORealmlogo.png" alt="MMORealm LOGO"></a>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gameList.html">Game List</a></li>
+			<li><a href="forums.html">Forums</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+	<form><!-- Start Form -->
+		<h2>Sign up now to learn and partake in community discussion!</h2>
+		<label for="fName">First Name:</label>
+		<input type="text" id="fName" name="fName">
+		
+		<label for="lName">Last Name:</label>
+		<input type="text" name="lName" id="lName">
+		
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username">
+		
+		<label for="pw">Password:</label>
+		<input type="password" name="pw" id="pw">
+		
+		<label for="repeatpw">Confirm Password:</label>
+		<input type="password" name="repeatpw" id="repeatpw">
+		
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
+		
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone">
+		
+		<br><br>
+		
+		<p> <b>How did you discover MMORealm?</b></p>
+		<label for="reference">Referral Source:</label>
+		<select name="reference" id="reference">
+			<option value="ad">Advertisement</option>
+			<option value="social">Social Media</option>
+			<option value="friend">Friend</option>
+			<option value="family">Family</option>
+			<option value="me">Myself</option>
+			<option value="other">Other</option>
+		</select>
+		
+		
+		<p> <b>Would you like to receive special promotional offers and news from MMORealm?</b> </p>
+		<input type="radio" name="promotional" value="Yes"> Yes<br>
+		<input type="radio" name="promotional" value="No" checked="checked"> No<br>
+		
+		
+		<p> <b>Optional Questionnaire: Which genre(s) of games are you familiar with? </b> </p>
+		<ul>
+			<li><input type="checkbox" name="genre" id="strategy" value="strategy"
+			class="chkbx">Strategy</li>
+			<li><input type="checkbox" name="genre" id="MOBA" value="MOBA"
+			class="chkbx">MOBA</li>
+			<li><input type="checkbox" name="genre" id="sports" value="sports"
+			class="chkbx">Sports</li>
+			<li><input type="checkbox" name="genre" id="MMORPG" value="MMORPG"
+			class="chkbx">MMORPG</li>
+			<li><input type="checkbox" name="genre" id="FPS" value="FPS"
+			class="chkbx">FPS</li>
+			<li><input type="checkbox" name="genre" id="RPG" value="RPG"
+			class="chkbx">RPG</li>
+			<li><input type="checkbox" name="genre" id="survival" value="survival"
+			class="chkbx">Survival</li>
+			<li><input type="checkbox" name="genre" id="other" value="other"
+			class="chkbx">Other</li>
+		</ul>
+		
+		
+		
+		
+		<input type="submit" id="submit" value="Submit" class="btn">
+		<input type="reset" id="reset" value="Reset Form" class="btn">
+	</form>
+	
+		
+	</main>
+	<footer>
+		&copy; Copyright 2018. All Rights Reserved. <br>
+		<a href="mailto:ing.timmy@gmail.com">ing.timmy@gmail.com</a>
+	</footer>
+	
+	</div>
+	
+</body>
+</html>
